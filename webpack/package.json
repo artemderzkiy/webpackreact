@@ -13,15 +13,26 @@
   "author": "derzkiy",
   "license": "ISC",
   "devDependencies": {
+    "babel": "^6.5.2",
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
     "babel-preset-stage-0": "^6.5.0",
-    "babel-preset-stage-1": "^6.13.0"
+    "babel-preset-stage-1": "^6.13.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react-hot-loader": "^1.3.0",
+    "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
   },
   "dependencies": {
+    "babel-loader": "^6.2.4",
     "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react-dom": "^15.3.0",
+    "webpack-dev-server": "^1.14.1"
   }
 }
